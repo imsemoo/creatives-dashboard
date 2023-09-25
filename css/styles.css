@@ -1731,3 +1731,82 @@ footer .logo {
         font-size: 20px;
     }
 }
+
+
+/*  
+===================================  ===================================  ===================================  
+===================================   created by front-end developer EN   =================================== 
+===================================  ===================================  ===================================  
+*/
+
+.KnowBusiness {
+    padding: 90px 0;
+}
+
+.KnowBusiness .title {
+    text-align: center;
+    font-size: 42px;
+    font-family: "HelveticaNeue-bold";
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+
+.KnowBusiness .title span.green{
+    color: var(--secondary-color);
+}
+.KnowBusiness .description{
+    text-align: center;
+    font-size: 22px;
+    font-family: "HelveticaNeue-light";
+    color: var(--primary-color);
+    margin-bottom: 90px;
+}
+.grid-4col{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 25px 145px;
+}
+
+.grid-4col .feature{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 15px;
+}
+
+.grid-4col .feature h4{
+    font-size: 22px;
+    font-family: "HelveticaNeue-bold";
+    color: #27BA5A;
+
+}
+.grid-4col .feature  p{
+    font-size: 16px ;
+    color: #393C41;
+}
+
+
+/* Media query for screens smaller than or equal to 768px */
+@media (max-width: 768px) {
+    .KnowBusiness {
+        padding: 50px 0;
+    }
+
+    .KnowBusiness .title {
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+
+    .KnowBusiness .description {
+        font-size: 18px;
+        margin-bottom: 60px;
+    }
+
+    .grid-4col {
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+}
