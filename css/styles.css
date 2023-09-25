@@ -1267,23 +1267,33 @@ footer .logo {
     padding-left: 60px;
 
 }
- /* Media query for screens smaller than md (medium) */
- @media (max-width: 768px) {
+
+/* Media query for screens smaller than md (medium) */
+@media (max-width: 768px) {
     .banner-sgin {
         height: auto;
         padding: 30px 0;
+        padding-left: 0 !important;
     }
 
     .banner-sgin .content {
         padding: 0;
+        margin-bottom: 60px;
+
     }
 
     .images-right-en {
-        height: auto;
+        height: 120px !important;
         padding-left: 0;
         text-align: center;
     }
+
+    .banner-sgin img {
+        width: 100%;
+
+    }
 }
+
 /*  
 ===================================  ===================================  ===================================  
 ===================================   created by front-end developer EN   =================================== 
@@ -1297,7 +1307,8 @@ footer .logo {
     padding: 50px 0;
 }
 
-.SimpleAdvance input {
+.grid-form-1 textarea,
+.grid-form-1 input {
     width: 100%;
     height: 53.43px;
     border-radius: 0;
@@ -1308,6 +1319,13 @@ footer .logo {
     font-size: 16px;
     color: #393C41;
     border: 1px solid #D8D9D9;
+}
+
+.grid-form-1 textarea {
+    height: 180px;
+    padding: 20px;
+    margin-bottom: 20px;
+
 }
 
 .grid-form-1 {
@@ -1354,10 +1372,12 @@ footer .logo {
     font-size: 16px;
 
 }
+
 /* Media query for screens smaller than md (medium) */
 @media (max-width: 768px) {
     .form-tow-col {
-        grid-template-columns: 1fr;    grid-gap: 0;
+        grid-template-columns: 1fr;
+        grid-gap: 0;
 
     }
 
@@ -1373,16 +1393,20 @@ footer .logo {
     .grid-form-1 .bottom-description {
         font-size: 12px;
     }
+
     .grid-form-1 {
         padding: 30px 0;
     }
+
     .grid-form-1 form {
         margin-bottom: 40px;
     }
-    .container-vertical-feat .box:last-child{
+
+    .container-vertical-feat .box:last-child {
         margin-bottom: 0;
     }
 }
+
 /*  
 ===================================  ===================================  ===================================  
 ===================================   created by front-end developer EN   =================================== 
@@ -1390,7 +1414,320 @@ footer .logo {
 */
 
 
-.banner-pricing .images-right-en{
-    background-image: none !important;
+.banner-pricing .images-right-en {
+    background-image: url(../images/Component\ 64\ –\ 1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 0;
+    background: none;
+}
+
+
+
+/*  
+===================================  ===================================  ===================================  
+===================================   created by front-end developer EN   =================================== 
+===================================  ===================================  ===================================  
+*/
+
+
+
+/* Start CSS Plans Section By EN*/
+.plans {
+    background: var(--primary-color);
+    padding: 90px 0 60px;
+}
+
+
+.plans .title {
+    font-size: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: "HelveticaNeue-bold";
+
+}
+
+.plans .description {
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 100px;
+}
+
+.grid-plans {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 42px;
+}
+
+.grid-plans .box-plan {
+    border: 1px solid #707070;
+    background: #FFFFFF;
+}
+
+.grid-plans .box-plan ul li {
+    color: #393C41;
+    font-size: 15px;
+    font-family: "HelveticaNeue-light";
+    display: block;
+    text-align: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #707070;
+
+}
+
+.grid-plans .box-plan .header-plan {
+    padding: 30px;
+    color: #FFFFFF;
+}
+
+.grid-plans .silver-plan .header-plan {
+    background: #B6C3C3;
+}
+
+.grid-plans .gold-plan .header-plan {
+    background: #C7C73F;
+}
+
+.grid-plans .platinum-plan .header-plan {
+    background: #DEDECC;
+}
+
+.grid-plans .free-plan .header-plan {
+    background: #73B752;
+}
+
+.grid-plans .box-plan .header-plan span {
+    display: block;
+}
+
+.grid-plans .box-plan .header-plan span.name {
+    font-size: 24px;
+}
+
+.grid-plans .box-plan .header-plan span.price {
+    font-size: 38px;
+
+}
+
+.grid-plans .box-plan .header-plan span.month {
+    font-size: 14px;
+
+}
+
+.grid-plans .box-plan .footer-list {
+    font-size: 10px;
+    border: none;
+}
+
+.btn-plan {
+    background: var(--secondary-color);
+    color: #FFFFFF;
+    grid-gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 26px;
+
+}
+
+.bottom-sec h2 {
+    font-size: 45px;
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "HelveticaNeue-bold";
+    margin-bottom: 50px;
+}
+
+.bottom-sec p {
+    font-size: 16px;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+
+}
+
+.payment {
+    border: 1px solid #707070;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 21px;
+    -webkit-border-radius: 21px;
+    -moz-border-radius: 21px;
+    -ms-border-radius: 21px;
+    -o-border-radius: 21px;
+    width: max-content;
+}
+
+/* Media queries for responsive design */
+
+/* For screens less than or equal to 768px */
+@media (max-width: 768px) {
+    .plans {
+        padding: 60px 0 40px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .plans .title {
+        font-size: 40px;
+        /* Decrease font size for smaller screens */
+    }
+
+    .plans .description {
+        font-size: 18px;
+        /* Decrease font size for smaller screens */
+        margin-bottom: 60px;
+        /* Adjust margin for smaller screens */
+    }
+
+    .grid-plans {
+        grid-template-columns: 1fr 1fr;
+        /* Two columns for smaller screens */
+        grid-gap: 20px;
+        /* Adjust grid gap for smaller screens */
+    }
+
+    /* Box-plan styles for smaller screens */
+
+    .btn-plan {
+        font-size: 22px;
+        /* Decrease font size for smaller screens */
+    }
+
+    .bottom-sec h2 {
+        font-size: 36px;
+        /* Decrease font size for smaller screens */
+    }
+
+    .bottom-sec p {
+        font-size: 14px;
+        /* Decrease font size for smaller screens */
+        margin-bottom: 30px;
+        /* Adjust margin for smaller screens */
+    }
+}
+
+/*  
+===================================  ===================================  ===================================  
+===================================   created by front-end developer EN   =================================== 
+===================================  ===================================  ===================================  
+*/
+.tour-page .mobile-menu-icon span,
+.page-contact-us .mobile-menu-icon span {
+    background-color: var(--primary-color);
+}
+
+@media screen and (max-width: 768px) {
+
+    .tour-page .navbar nav .menu,
+    .page-contact-us .navbar nav .menu {
+        background: #FFFFFF;
+
+    }
+}
+
+.page-contact-us .navbar {
+    background: #FFFFFF;
+}
+
+.tour-page .navbar nav .menu li .btn {
+    background: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.page-contact-us .navbar nav .menu li a {
+    color: var(--primary-color);
+}
+
+.page-contact-us .navbar nav .menu li .btn {
+    background: var(--primary-color);
+    color: #FFFFFF;
+}
+
+.banner-contact-us {
+    height: 270px;
+    background: #FFFFFF;
+    padding-left: 40px;
+
+}
+
+.banner-contact-us .images-right-en {
+    height: 270px;
+    background: none;
+
+}
+
+.banner-contact-us .content p,
+.banner-contact-us .content h2 {
+    color: var(--primary-color);
+}
+
+
+
+/* Start Css Section Contact Us By EN */
+.contact-us {
+    background: var(--primary-color);
+    padding: 70px 0;
+}
+
+.contact-us .title {
+    line-height: 1.4;
+    font-size: 50px;
+    font-family: "HelveticaNeue-bold";
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 50px;
+
+}
+
+.contact-us .description {
+    color: #FFFFFF;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 50px;
+}
+
+.contact-us .grid-form-1 {
+    padding: 0;
+    max-width: 900px;
+    margin: auto;
+}
+
+.contact-us .bottom-sec p {
+    margin-bottom: 0;
+}
+
+
+/* Media Query for Tablet Screens */
+@media (max-width: 992px) {
+    .contact-us .title {
+        font-size: 40px;
+    }
+
+    .contact-us .description {
+        font-size: 14px;
+    }
+}
+
+/* Media Query for Mobile Screens */
+@media (max-width: 768px) {
+    .contact-us .title {
+        font-size: 30px;
+    }
+
+    .contact-us .description {
+        font-size: 12px;
+    }
+
+    .contact-us .grid-form-1 {
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .contact-us .form-area {
+        margin-bottom: 20px;
+    }
+
+    .contact-us .btn {
+        font-size: 20px;
+    }
 }
