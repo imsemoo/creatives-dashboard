@@ -57,7 +57,7 @@ input {
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
     -o-border-radius: 6px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
     height: 35px;
 }
 
@@ -721,7 +721,7 @@ p {
 
 .container-features {
     justify-content: center;
-    grid-gap:  100px;
+    grid-gap: 100px;
 }
 
 .container-features .feature-box {
@@ -785,10 +785,10 @@ p {
 
 /* Footer Css BY EN*/
 footer {
-    padding-top: 40px;
+    padding-top: 35px;
     background: var(--secondary-color);
     color: #fff;
-    padding-bottom: 40px;
+    padding-bottom: 35px;
 }
 
 footer a {
@@ -876,7 +876,7 @@ footer .logo {
 }
 
 .copyright p {
-    padding-top: 20px;
+    padding-top: 25px;
     font-size: 12px;
     margin-bottom: 0;
 }
@@ -956,14 +956,14 @@ footer .logo {
 
 
 .banner .content {
-    padding: 60px 0 79px 60px;
+    padding: 100px 0 65px 60px;
 
 }
 
 .banner .content h2 {
     font-size: 44px;
     font-family: "HelveticaNeue-bold";
-    margin: 0 0 30px 0;
+    margin: 0 0 15px 0;
     color: var(--primary-color);
 
 }
@@ -983,7 +983,7 @@ footer .logo {
     justify-content: center;
     align-items: center;
     width: max-content;
-    margin-top: 50px;
+    margin-top: 40px;
     height: 120px;
 
 }
@@ -991,6 +991,7 @@ footer .logo {
 .banner .content .big-btn span:first-child {
     font-size: 32px;
     color: var(--primary-color);
+    margin-bottom: 15px;
 }
 
 .banner .content .big-btn span:last-child {
@@ -1016,7 +1017,7 @@ footer .logo {
 /* Media query for screens smaller than md (medium) */
 @media (max-width: 768px) {
     .banner .content {
-        padding: 60px 0 30px 0;
+        padding: 30px 0 30px 0;
     }
 
     .banner .content h2 {
@@ -1030,7 +1031,7 @@ footer .logo {
 
     .banner .content .big-btn {
         padding: 15px;
-        margin: 20px auto;
+        margin: 30px auto 20px;
     }
 
     .banner .content .big-btn span:first-child {
@@ -1061,7 +1062,7 @@ footer .logo {
 
 .QuickAndEasySolution {
     background: var(--primary-color);
-    padding: 60px 0;
+    padding: 100px 0 90px;
     color: #FFFFFF;
 }
 
@@ -1106,7 +1107,7 @@ footer .logo {
 .QuickAndEasySolution .description {
     font-family: "HelveticaNeue-R";
     font-size: 16px;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     color: #fff;
 
 }
@@ -1184,7 +1185,7 @@ footer .logo {
     .QuickAndEasySolution .description {
         font-size: 14px;
         /* Adjust font size for smaller screens */
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         /* Adjust margin for smaller screens */
     }
 
@@ -1207,7 +1208,12 @@ footer .logo {
         padding: 20px 0;
         /* Adjust padding for smaller screens */
         grid-gap: 20px;
-        /* Adjust grid gap for smaller screens */
+        margin: 30px 0;
+
+    }
+
+    .QuickAndEasySolution {
+        padding: 40px 0;
     }
 
     .container-vertical-feat .box {
@@ -1224,6 +1230,7 @@ footer .logo {
         flex-flow: column;
         align-items: center;
         justify-content: center;
+
     }
 }
 
@@ -1253,7 +1260,7 @@ footer .logo {
 
 .banner-sgin .content h2 {
     color: #FFFFFF;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
 }
 
 .banner-sgin .content p {
@@ -1309,7 +1316,7 @@ footer .logo {
 .SimpleAdvance {
     background: var(--primary-color);
     border-top: 1px solid rgb(228 228 228 / 40%);
-    padding: 50px 0;
+    padding: 75px 0 40px;
 }
 
 .grid-form-1 textarea,
@@ -1324,12 +1331,14 @@ footer .logo {
     font-size: 16px;
     color: #393C41;
     border: 1px solid #D8D9D9;
+    margin-bottom: 35px;
 }
+
 
 .grid-form-1 textarea {
     height: 180px;
     padding: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 35px;
 
 }
 
@@ -1338,7 +1347,7 @@ footer .logo {
 }
 
 .grid-form-1 form {
-    margin-bottom: 100px;
+    margin-bottom: 125px;
 
 }
 
@@ -1369,7 +1378,7 @@ footer .logo {
     font-size: 44px;
     color: #fff;
     font-family: "HelveticaNeue-bold";
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .grid-form-1 .bottom-descrption {
@@ -1441,9 +1450,11 @@ footer .logo {
 /* Start CSS Plans Section By EN*/
 .plans {
     background: var(--primary-color);
-    padding: 90px 0 60px;
+    padding: 60px 0 60px;
 }
-
+.banner-pricing{
+    border-bottom: 1px solid #707070;
+}
 
 .plans .title {
     font-size: 49px;
@@ -1457,13 +1468,13 @@ footer .logo {
     text-align: center;
     color: #FFFFFF;
     font-size: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 .grid-plans {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 42px;
+    grid-gap: 39px;
 }
 
 .grid-plans .box-plan {
@@ -1530,8 +1541,8 @@ footer .logo {
     background: var(--secondary-color);
     color: #FFFFFF;
     grid-gap: 10px;
-    margin-top: 20px;
-    margin-bottom: 80px;
+    margin-top: 33px;
+    margin-bottom: 90px;
     font-size: 26px;
 
 }
@@ -1541,12 +1552,12 @@ footer .logo {
     text-align: left;
     color: #FFFFFF;
     font-family: "HelveticaNeue-bold";
-    margin-bottom: 50px;
+    margin-bottom: 35px;
 }
 
 .bottom-sec p {
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     color: #FFFFFF;
 
 }
@@ -1595,7 +1606,8 @@ footer .logo {
 
     .btn-plan {
         font-size: 22px;
-        /* Decrease font size for smaller screens */
+        margin-top: 40px;
+
     }
 
     .bottom-sec h2 {
@@ -1608,6 +1620,9 @@ footer .logo {
         /* Decrease font size for smaller screens */
         margin-bottom: 30px;
         /* Adjust margin for smaller screens */
+    }
+    .banner-pricing .images-right-en{
+        height: 220px !important;
     }
 }
 
@@ -1627,6 +1642,10 @@ footer .logo {
     .page-contact-us .navbar nav .menu {
         background: #FFFFFF;
 
+    }
+
+    .navbar {
+        padding: 10px 0 0;
     }
 }
 
@@ -1671,7 +1690,11 @@ footer .logo {
 /* Start Css Section Contact Us By EN */
 .contact-us {
     background: var(--primary-color);
-    padding: 70px 0;
+    padding: 70px 0 60px;
+}
+
+.contact-us .grid-form-1 form {
+    margin-bottom: 100px;
 }
 
 .contact-us .title {
@@ -1680,7 +1703,7 @@ footer .logo {
     font-family: "HelveticaNeue-bold";
     color: #FFFFFF;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 
 }
 
@@ -1688,12 +1711,12 @@ footer .logo {
     color: #FFFFFF;
     font-size: 16px;
     color: #FFFFFF;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 
 .contact-us .grid-form-1 {
     padding: 0;
-    max-width: 900px;
+    max-width: 830px;
     margin: auto;
 }
 
@@ -1725,7 +1748,6 @@ footer .logo {
 
     .contact-us .grid-form-1 {
         max-width: 100%;
-        padding: 0 20px;
     }
 
     .contact-us .form-area {
@@ -1745,7 +1767,9 @@ footer .logo {
 */
 
 .KnowBusiness {
-    padding: 90px 0;
+    padding: 80px 0 88px;
+    background: #F8F8F8;
+
 }
 
 .KnowBusiness .title {
@@ -1757,23 +1781,25 @@ footer .logo {
 }
 
 
-.KnowBusiness .title span.green{
+.KnowBusiness .title span.green {
     color: var(--secondary-color);
 }
-.KnowBusiness .description{
+
+.KnowBusiness .description {
     text-align: center;
     font-size: 22px;
     font-family: "HelveticaNeue-light";
     color: var(--primary-color);
-    margin-bottom: 90px;
+    margin-bottom: 85px;
 }
-.grid-4col{
+
+.grid-4col {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 25px 145px;
 }
 
-.grid-4col .feature{
+.grid-4col .feature {
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -1782,14 +1808,21 @@ footer .logo {
     grid-gap: 15px;
 }
 
-.grid-4col .feature h4{
+.grid-4col .feature .image {
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+}
+
+.grid-4col .feature h4 {
     font-size: 22px;
     font-family: "HelveticaNeue-bold";
     color: #27BA5A;
 
 }
-.grid-4col .feature  p{
-    font-size: 16px ;
+
+.grid-4col .feature p {
+    font-size: 16px;
     color: #393C41;
 }
 
