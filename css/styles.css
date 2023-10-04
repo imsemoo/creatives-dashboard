@@ -188,7 +188,33 @@ p {
     font-size: 18px;
     font-family: "HelveticaNeue-bold";
 }
+.circle-link a{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.circle-link a i{
+    color: var(--primary-color);
+}
 
+.dashboard-li a{
+    display: flex;
+    align-items: center;
+    grid-gap: 5px;
+}
+
+.navbar nav .menu {
+    display: flex;
+    align-items: center;
+}
 .navbar nav .menu li .btn {
     background: #FFFFFF;
     border: 1px solid #707070;
